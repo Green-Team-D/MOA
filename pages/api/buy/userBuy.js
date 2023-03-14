@@ -14,7 +14,7 @@ export default async function handler(req, res) {
         const users = await userCollection.findOne({
           useremail: req.query.email,
         });
-        console.log(users);
+        // console.log(users);
         if (users) {
           res.status(200).json({ status: "exist", email: users.useremail });
         } else {

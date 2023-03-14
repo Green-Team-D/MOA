@@ -40,6 +40,8 @@ const Word = () => {
   console.log(userSaveData);
 
   const currentUserId = 5;
+  const currentUserEmail = userSaveData.email;
+  console.log(userSaveData);
   const router = useRouter();
 
   // 유저의 단어목록을 받아오는 함수
@@ -49,6 +51,7 @@ const Word = () => {
       .get("/api/generate/wordcontroll", {
         params: {
           currentUserId,
+          currentUserEmail,
         },
       })
       .then((res) => {

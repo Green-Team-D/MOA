@@ -72,15 +72,19 @@ const BuyContextCom = (props) => {
   ]; /* 4코인 단어 배열 */
 
   const [userData, setuserData] = useState(); /* 사용자 데이터 */
-  const { data: session } = useSession(); /* 로그인 세션 */
+  const { data } = useSession(); /* 로그인 세션 */
 
   const userGetData = async () => {
     try {
       const response = await axios
         .get("/api/buy/userBuy", {
-          params: { email: session.user.email },
+          params: { email: data.user.email },
         })
-        .then((res) => setuserData(res.data));
+        .then((res) => {
+          setuserData(res.data.data);
+          console.log(res);
+        });
+      // console.log(response);
     } catch (error) {
       console.error(error);
     }
@@ -101,7 +105,7 @@ const BuyContextCom = (props) => {
 
   useEffect(() => {
     userGetData();
-  }, [session]); /* DB  */
+  }, [data]); /* DB  */
 
   return (
     <buyContext.Provider

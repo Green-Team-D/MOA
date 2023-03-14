@@ -96,7 +96,7 @@ const Others = () => {
       try {
         const res = await axios.get("/api/generate/userData");
         setUserDatas(res.data);
-        // console.log(res.data);
+        console.log(res.data);
       } catch (err) {
         console.error(err);
       }

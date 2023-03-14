@@ -14,7 +14,7 @@ export default function LoginPage() {
   //     profil: session.user.image,
   //   });
   // }
-  console.log(data);
+  // console.log(data);
 
   async function saveUserToDB() {
     try {
@@ -23,6 +23,12 @@ export default function LoginPage() {
         email: data.user.email,
         profile: data.user.image,
       });
+      const userResponse = await axios.get("api/users", {
+        params: {
+          email: data.user.email,
+        },
+      });
+      console.log(userResponse);
     } catch (error) {
       console.log(error);
     }
@@ -34,12 +40,13 @@ export default function LoginPage() {
         email: data.user.email,
       },
     });
-    // console.log(dbUser);
+
     if (dbUser.data.status == "exist") {
       // 존재하지 않으면 DB에 유저정보 저장
-      console.log("db에 이미 있는 유저");
+      // console.log("db에 이미 있는 유저");
     } else if (dbUser.data.status == "noExist") {
-      console.log("존재하지 않는 유조 -> db에 저장시키기");
+      console.log("존재하지 않는 유저 -> db에 저장시키기");
+      // console.log(dbUser);
       saveUserToDB();
     }
   }
