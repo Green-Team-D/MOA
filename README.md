@@ -18,3 +18,7 @@
 <br/>
 
 ## 2. 프로젝트 뷰
+
+<div align="center">
+<img src="https://github.com/Green-Team-D/MOA/assets/112158792/ab8522b0-220b-437e-8ca5-9946d0d074ce" width="600" />
+</div>
