@@ -136,6 +136,9 @@
 
 ## 6. 팀원소개
 
-|    [조민서](https://github.com/ZziBooOooo) | [김형재](https://github.com/wo3214) | [김세림](https://github.com/imserimkim) |
+|    [조민서](https://github.com/ZziBooOooo)  | [김형재](https://github.com/wo3214) | [김세림](https://github.com/imserimkim)  |
 |-------------------------------------------|-------------------------------------|------------------------------------------|
-|       `WEB FE` `리드 개발자`               |            `WEB FE`                 |               `WEB FE`                   |
+|<img width="520" src="https://avatars.githubusercontent.com/u/107842817?v=4">|<img width="520" src="https://avatars.githubusercontent.com/u/118143199?v=4">|<img width="520" src="https://avatars.githubusercontent.com/u/112158792?v=4"> |
+|           `WEB FE` `리드 개발자`           |            `WEB FE`                 |               `WEB FE`                   |
+| - 만들기, 좋아요 페이지 개발<br/> - 디자인 및 기획 <br/> - 모든 open API 담당<br/> - 배포 | - 구매하기, 앨범 페이지 개발<br/> - 로그인 구현<br/> 코인 수 관리| - 메인페이지, 미션 페이지 개발<br/> - 디자인<br/>- 미션횟수 데이터 관리|
+
