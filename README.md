@@ -2,7 +2,7 @@
 
 ![배너](https://github.com/Green-Team-D/MOA/assets/112158792/997047da-b46c-4f19-94a1-e22bc31c8b3e)
 
-- 배포 URL: [https://breadgood-22.github.io/frontend](https://port-0-moa2-ixj2mllmav52m.sel3.cloudtype.app/)
+- 배포 URL: [https://port-0-moa2-ixj2mllmav52m.sel3.cloudtype.app/](https://port-0-moa2-ixj2mllmav52m.sel3.cloudtype.app/)
 - 테스트 계정
   - `ID`: projectmoatest@gmail.com
   - `PassWord`: projectmoa
