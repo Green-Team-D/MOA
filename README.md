@@ -111,7 +111,7 @@
 <br/>
 
 ## 5. 폴더구조
-- comopenents/: 각 페이지 및 공통 컴포넌트 관리
+- components/: 각 페이지 및 공통 컴포넌트 관리
 - context/: 페이지나 API라우팅 과정에서 요청(reaquest)과 응답(reponse)을 다루기 위해 활용
 - database/: DB를 데이터베이스 시스템에 연결
 - pages/: 페이지 구성 및 페이지 라우팅 설정
