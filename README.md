@@ -159,7 +159,7 @@
 
 ## 6. 팀원소개
 
-|    [조민서](https://github.com/ZziBooOooo)  | [김형재](https://github.com/wo3214) | [김세림](https://github.com/imserimkim)  |
+|    [조민서](https://github.com/ZziBooOooo)  | [김형재](https://github.com/wo3214) | [김서연](https://github.com/seonrize)  |
 |-------------------------------------------|-------------------------------------|------------------------------------------|
 |<img width="520" src="https://avatars.githubusercontent.com/u/107842817?v=4">|<img width="520" src="https://avatars.githubusercontent.com/u/118143199?v=4">|<img width="520" src="https://avatars.githubusercontent.com/u/112158792?v=4"> |
 |           `WEB FE` `리드 개발자`           |            `WEB FE`                 |               `WEB FE`                   |
